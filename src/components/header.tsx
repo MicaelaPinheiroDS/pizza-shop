@@ -1,7 +1,7 @@
 import { Separator } from '@radix-ui/react-separator'
 import { Home, Pizza, UtensilsCrossed } from 'lucide-react'
 
-import { AcconuntMenu } from './account.menu'
+import { AcconuntMenu } from './accountMenu'
 import { NavLink } from './navLink'
 import { ModeToggle } from './theme/theme-toggle'
 
