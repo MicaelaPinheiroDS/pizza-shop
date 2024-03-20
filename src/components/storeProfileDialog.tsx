@@ -63,7 +63,6 @@ export function StoreProfileDialog() {
             ...cached,
             name,
             description,
-            
           },
         )
       }
