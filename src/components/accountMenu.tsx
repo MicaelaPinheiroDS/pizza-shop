@@ -1,5 +1,5 @@
 import { useMutation, useQuery } from '@tanstack/react-query'
-import { Building, ChevronDown, LogOut, Turtle } from 'lucide-react'
+import { Building, ChevronDown, LogOut } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 
 import { getManagedRestaurant } from '@/api/getManagedRestaurent'
