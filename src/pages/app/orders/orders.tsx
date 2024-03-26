@@ -29,7 +29,7 @@ export function Orders() {
     .parse(searchParams.get('page') ?? '1')
 
   const { data: result } = useQuery({
-    queryKey: ['oders', pageIndex, orderId, customerName, status],
+    queryKey: ['orders', pageIndex, orderId, customerName, status],
     queryFn: () =>
       getOrders({
         pageIndex,
