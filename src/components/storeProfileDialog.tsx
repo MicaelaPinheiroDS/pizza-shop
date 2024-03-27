@@ -9,8 +9,8 @@ import {
   getManagedRestaurant,
   GetManagedRestaurantResponse,
 } from '@/api/getManagedRestaurent'
-import { updateProfile } from '@/api/updadeProfile'
 import { queryClient } from '@/lib/react-query'
+import { updateProfile } from '@/lib/updadeProfile'
 
 import { Button } from './ui/button'
 import {
